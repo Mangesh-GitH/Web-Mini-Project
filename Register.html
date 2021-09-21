@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../GateMaster/GateMaster.css">
     <title>Register - GateMaster</title>
 </head>
 <script>  
@@ -24,6 +25,12 @@
 	}
 </script>
 <body>
+    <Header>
+        <center>
+            <img src="../GateMaster/Logo.jpeg">
+        </center>
+    </Header>
+    <center>
     <h2>Registration Form</h2>
         <form action="" onSubmit = "return checkPassword(this)">
             <p>All fields are required *.</p>
@@ -41,7 +48,9 @@
                         <option value="INFT">Information Technology</option>
                         <option value="INST">Instrumentation Engineering</option>
                         <option value="EXTC">Electronics And Telecommunication Engineering</option>
-                        <option value="ETRX">Electronics Engineering</option>
+                        <option value="ETRX">Electrical Engineering</option>
+                        <option value="ME">Mechanical Engineering</option>
+                        <option value="CE">Civil Engineering</option>
                     </select>
                 </p>
                 <p>
@@ -50,5 +59,6 @@
                 </p>
             </fieldset>
         </form>
-</body>
+    </center>
+    </body>
 </html>
