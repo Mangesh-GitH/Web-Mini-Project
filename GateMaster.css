@@ -120,3 +120,15 @@ td
     padding: 10px;
     background-color: linen;
 }
+aside
+{
+    width: 30%;
+    height: 30%;
+    font: bold;
+    color: black;
+    float: left;
+}
+footer
+{ 
+   clear: both;
+}
