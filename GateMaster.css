@@ -25,7 +25,7 @@ nav a:hover
 header 
 {
     padding: 50px;
-    background-color: rgb(17, 124, 143);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
 }
 
 nav 
@@ -131,4 +131,55 @@ aside
 footer
 { 
    clear: both;
+}
+p
+{
+    clear: both;
+    font-weight: bolder;
+    font-size: inherit;
+    float: initial;
+}
+input,select
+{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #cccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    float: right;
+}
+input[type="submit"]
+{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    float: inline-start;
+    cursor: pointer ;
+    width: 20%;
+    float: none;
+}
+input[type="reset"]
+{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    float: inline-end;
+    cursor: pointer;
+    width: 20%;
+    float: none;
+}
+aside
+{
+    float: right;
+    width: 40%;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+fieldset
+{
+    border-radius: 20px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6)
 }
