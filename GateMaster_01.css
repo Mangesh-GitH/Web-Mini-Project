@@ -264,7 +264,9 @@ div
 }
 .container
 {
-    float: left;
+	display: flex;
+    align-items: center;
+  justify-content: center;
     width: 100%;
     margin: auto;
     overflow: hidden;
@@ -319,8 +321,8 @@ div
     text-align: center;
     font-weight: bolder;
 }
-
-VideoLectures{
+VideoLectures
+{
     padding: 20px;
     background-color: white;
     width: 20%;

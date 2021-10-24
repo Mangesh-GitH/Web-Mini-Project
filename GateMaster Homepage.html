@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../GateMaster/GateMaster.css">
+    <script src="../Web-Mini-Project/jQuery.js"></script>
     <title>Homepage - GateMaster</title>
 </head>
 <script>  
@@ -23,6 +24,7 @@
 			return true;
 		}
 	}
+    $("#date").datepicker();
 </script>
 <style>
     p
@@ -131,20 +133,20 @@
     }
 </style>
 <body>
-    <header>
-        <center>
-        <img src="../GateMaster/Logo.jpeg" width="30%" height="30%">
-        </center>
-    </header>
     <nav>
         <center>
         <a href="GateMaster Homepage.html">Home</a>
-        <a href="Stream.html">Streams</a>
+        <a href="GateMaster Streams.html">Streams</a>
         <a href="Mentor.html">Mentor</a>
         <a href="About Gate.html">About GATE</a>
         <a href="Log Out.html">Log Out</a>
         </center>
     </nav>
+    <header>
+        <center>
+        <img src="../GateMaster/Logo.jpeg" width="30%" height="30%">
+        </center>
+    </header>
     <br>
     <aside>
         <form action="" onSubmit = "return checkPassword(this)">
